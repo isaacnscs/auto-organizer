@@ -9,14 +9,14 @@ function move {
 
 # Armazer as extensões como strings
    local pictures='*.jpeg *.jpg *.png *.gif'
-   local music='ls *.mp3'
-   local others='*.torrent *.deb *.iso'
-   local documents='*.txt *.pdf'
-
+   local music='ls *.mp3 *.aac *.wav *.wma'
+   local documents='*.txt *.pdf *.doc *.docx *.ppt *.odt'
+   local videos='*.avi *.mp4 *.mkv'
+   
    mv -n $pictures ~/Pictures
    mv -n $music ~/Music
-   mv -n $others ~/Others
    mv -n $documents ~/Documents
+   mv -n $videos='*.mp4 *.mkv'
 
 }
 
