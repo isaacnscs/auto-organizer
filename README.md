@@ -27,7 +27,7 @@ curl https://raw.githubusercontent.com/isaacnscs/auto-organizer/main/auto-organi
 ```
 *Nesse caso, é o mesmo que abrir o arquivo.sh > RAW > salvar como)*
 
-3. Navegue até o diretório onde o arquivo foi baixado
+2. Navegue até o diretório onde o arquivo foi baixado
 ```sh
 cd ~/Downloads
 ```
