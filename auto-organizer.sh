@@ -3,7 +3,9 @@
 default=~/Downloads
 
 # Se o usuario nao passar um argumento, sera executado no caminho "default"
-if [ ! -z $1 ]; then cd $1; else cd $default; fi
+if [ ! -z $1 ]; then default=$1; fi
+
+cd $default
 
 function move {
 
